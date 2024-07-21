@@ -24,7 +24,7 @@ export default function About() {
                         <div className="skill-info"><p> <p>HTML & CSS</p><hr style={{ width: "50%" }} /></p></div>
                         <div className="skill-info"><p> <p>ReactJs</p><hr style={{ width: "50%" }} /></p></div>
                         <div className="skill-info"><p> <p>JavaScript</p><hr style={{ width: "50%" }} /></p></div>
-                        <div className="skill-info"><p> <p>Java</p><hr style={{ width: "50%" }} /></p></div>
+                        <div className="skill-info"><p> <p>Java</p><hr style={{ width: "40%" }} /></p></div>
 
                     </div>
                 </div>
