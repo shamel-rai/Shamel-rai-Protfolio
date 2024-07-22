@@ -43,3 +43,37 @@
     margin-bottom: 80px;
 }
 
+.certification-card h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.certification-card h2 {
+    font-style: 38px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #DA7C25 50%, #B923E1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.certification-card p {
+    color: #d4d4d4;
+    font-style: 24px;
+    line-height: 40px;
+    max-width: 300px;
+}
+
+.service-readmore {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.certification-card:hover {
+    border: 2px solid #ff00ff;
+    background-image: linear-gradient(45deg, #3f0028, #582300);
+    transform: scale(1.05);
+    transition: 0.5s;
+}

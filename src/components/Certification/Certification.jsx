@@ -15,7 +15,7 @@ export default function Certification() {
                         <h3>{service.s_no}</h3>
                         <h2>{service.s_name}</h2>
                         <p>{service.s_desc}</p>
-                        <div className='service-radmore'>
+                        <div className='service-readmore'>
                             <p>Read more</p>
                             <img src={arrowIcon} alt="" />
                         </div>
