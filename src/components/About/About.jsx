@@ -21,10 +21,10 @@ export default function About() {
                             and contribute to real-world projects.</p>
                     </div>
                     <div className="skills">
-                        <div className="skill-info"><p> <p>HTML & CSS</p><hr style={{ width: "50%" }} /></p></div>
-                        <div className="skill-info"><p> <p>ReactJs</p><hr style={{ width: "50%" }} /></p></div>
-                        <div className="skill-info"><p> <p>JavaScript</p><hr style={{ width: "50%" }} /></p></div>
-                        <div className="skill-info"><p> <p>Java</p><hr style={{ width: "40%" }} /></p></div>
+                        <div className="skill-info"> <p>HTML & CSS</p><hr style={{ width: "50%" }} /></div>
+                        <div className="skill-info"> <p>ReactJs</p><hr style={{ width: "50%" }} /></div>
+                        <div className="skill-info"> <p>JavaScript</p><hr style={{ width: "50%" }} /></div>
+                        <div className="skill-info"> <p>Java</p><hr style={{ width: "40%" }} /></div>
 
                     </div>
                 </div>

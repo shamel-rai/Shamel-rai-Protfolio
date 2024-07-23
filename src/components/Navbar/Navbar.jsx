@@ -15,7 +15,7 @@ export default function Navbar() {
         openRef.current.style.right = "0";
     }
     const closeMenu = () => {
-        openRef.current.style.right = "0";
+        openRef.current.style.right = "-350px";
     }
     return (
         <div className="navbar">

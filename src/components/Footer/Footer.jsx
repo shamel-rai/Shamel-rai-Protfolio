@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <hr />
             <div className="footer-bottom">
-                <p className="footer-bottom-left">© Shamel Rai. All rights reserved</p>
+                <p className="footer-bottom-left"> Shamel Rai. All rights reserved</p>
                 <div className="footer-bottom-right">
                     <p>Privacy Policy</p>
                     <p>Terms of Use</p>
