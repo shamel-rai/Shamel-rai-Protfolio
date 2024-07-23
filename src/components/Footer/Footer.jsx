@@ -1,5 +1,5 @@
 import './footer.css';
-import footerLogo from '../../assets/footer_logo.svg';
+import footerLogo from '../../assets/logo.png';
 import userIcon from '../../assets/user_icon.svg';
 export default function Footer() {
     return (

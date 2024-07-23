@@ -1,6 +1,6 @@
 import './about.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
-import profileImg from '../../assets/profile_img.svg';
+import profileImg from '../../assets/Shamel.png';
 
 export default function About() {
     return (
@@ -36,12 +36,12 @@ export default function About() {
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>4</h1>
+                    <h1>6</h1>
                     <p>PROJECTS COMPLETED</p>
                 </div>
                 <hr />
                 <div className="about-achievement">
-                    <h1>10</h1>
+                    <h1>7</h1>
                     <p>CERTIFICATIONS</p>
                 </div>
             </div>

@@ -30,6 +30,10 @@
     gap: 80px;
 }
 
+.about-section img {
+    max-height: 50vh;
+}
+
 .about-right {
     display: flex;
     flex-direction: column;

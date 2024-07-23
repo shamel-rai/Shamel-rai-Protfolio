@@ -1,5 +1,5 @@
 import './navbar.css'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logo.png'
 import underline from '../../assets/nav_underline.svg'
 import menuOpen from '../../assets/menu_open.svg'
 import menuClose from '../../assets/menu_close.svg'

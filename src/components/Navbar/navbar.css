@@ -5,6 +5,12 @@
     margin: 20px 170px;
 }
 
+.navbar img {
+    max-width: 15vw;
+    max-height: 10vh;
+
+}
+
 .navmenu {
     display: flex;
     align-items: center;

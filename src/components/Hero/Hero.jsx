@@ -1,5 +1,5 @@
 import './hero.css';
-import profile_img from '../../assets/profile_img.svg';
+import profile_img from '../../assets/Shamel.png';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 export default function Hero() {
     return (
