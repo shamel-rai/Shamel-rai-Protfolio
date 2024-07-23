@@ -1,8 +1,9 @@
 import './hero.css';
 import profile_img from '../../assets/profile_img.svg';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 export default function Hero() {
     return (
-        <div className='hero'>
+        <div className='hero' id='Home'>
             <img src={profile_img} alt="" />
             <h1>I'm Shamel Rai</h1>
             <h2>Aspiring frontend developer</h2>
@@ -12,7 +13,7 @@ export default function Hero() {
                 contribute to innovative web solutions and gain valuable industry experience through an internship.</p>
             <div className="hero-action">
                 <div className="hero-connect">
-                    Connect With Me
+                    <AnchorLink className='anchorLink' offset={50} href='#Contact-Me'>Connect With Me </AnchorLink>
                 </div>
                 <div className="hero-resume">
                     My Resume

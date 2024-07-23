@@ -4,7 +4,7 @@ import workData from '../../assets/mywork_data'
 import arrowIcon from '../../assets/arrow_icon.svg';
 export default function Projects() {
     return (
-        <div className='my-projects'>
+        <div className='my-projects' id='Projects'>
             <div className="project-title">
                 <h1>My Latest Work</h1>
                 <img src={theme_pattern} alt="" />

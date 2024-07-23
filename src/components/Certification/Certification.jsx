@@ -4,7 +4,7 @@ import ServicesData from '../../assets/services_data';
 import arrowIcon from '../../assets/arrow_icon.svg';
 export default function Certification() {
     return (
-        <div className='certification'>
+        <div className='certification' id='Certifications'>
             <div className="certification-title">
                 <h1>My Certification</h1>
                 <img src={theme_pattern} alt="" />

@@ -70,3 +70,8 @@
     transform: scale(1.05);
     border-color: #B415FF;
 }
+
+.anchorLink {
+    text-decoration: none;
+    color: white;
+}
