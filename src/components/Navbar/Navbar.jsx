@@ -48,7 +48,7 @@ export default function Navbar() {
                     {open === "Certifications" ? <img src={underline} alt='' /> : <></>}
                 </li>
                 <li>
-                    <AnchorLink className="anchorLink" offset={50} href='#Contact-me'>
+                    <AnchorLink className="anchorLink" offset={50} href='#Contact-Me'>
                         <p onClick={() => setOpen("Contact Me")}>Contact Me</p>
                     </AnchorLink>
                     {open === "Contact Me" ? <img src={underline} alt='' /> : <></>}

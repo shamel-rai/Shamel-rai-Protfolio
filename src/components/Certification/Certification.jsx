@@ -1,7 +1,6 @@
 import './certification.css';
 import theme_pattern from '../../assets/theme_pattern.svg';
 import ServicesData from '../../assets/services_data';
-import arrowIcon from '../../assets/arrow_icon.svg';
 export default function Certification() {
     return (
         <div className='certification' id='Certifications'>
@@ -15,10 +14,6 @@ export default function Certification() {
                         <h3>{service.s_no}</h3>
                         <h2>{service.s_name}</h2>
                         <p>{service.s_desc}</p>
-                        <div className='service-readmore'>
-                            <p>Read more</p>
-                            <img src={arrowIcon} alt="" />
-                        </div>
                     </div>
                 })}
             </div>

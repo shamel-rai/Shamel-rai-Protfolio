@@ -14,10 +14,12 @@ export default function Projects() {
                     return <img key={index} src={work.w_img} alt='' />
                 })}
             </div>
-            <div className="project-showmore">
-                <p>Show more</p>
-                <img src={arrowIcon} alt="" />
-            </div>
+            <a href="https://github.com/shamel-rai" target="_blank" className='github'>
+                <div className="project-showmore">
+                    <p>Show more</p>
+                    <img src={arrowIcon} alt="" />
+                </div>
+            </a>
         </div>
     )
 }

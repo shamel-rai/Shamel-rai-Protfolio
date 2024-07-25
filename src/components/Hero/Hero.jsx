@@ -15,9 +15,11 @@ export default function Hero() {
                 <div className="hero-connect">
                     <AnchorLink className='anchorLink' offset={50} href='#Contact-Me'>Connect With Me </AnchorLink>
                 </div>
-                <div className="hero-resume">
-                    My Resume
-                </div>
+                <a href="/CV.pdf" download={true} className='CV'> 
+                    <div className="hero-resume" >
+                        My Resume
+                    </div>
+                </a>
             </div>
         </div>
     )
